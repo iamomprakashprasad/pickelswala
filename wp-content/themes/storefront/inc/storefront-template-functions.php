@@ -135,6 +135,7 @@ if ( ! function_exists( 'storefront_credit' ) ) {
 	 * @return void
 	 */
 	function storefront_credit() {
+		/*
 		$links_output = '';
 
 		if ( apply_filters( 'storefront_credit_link', true ) ) {
@@ -157,10 +158,11 @@ if ( ! function_exists( 'storefront_credit' ) ) {
 
 			<?php if ( ! empty( $links_output ) ) { ?>
 				<br />
-				<?php echo wp_kses_post( $links_output ); ?>
+				<!-- <?php echo wp_kses_post( $links_output ); ?> -->
 			<?php } ?>
 		</div><!-- .site-info -->
 		<?php
+		*/
 	}
 }
 

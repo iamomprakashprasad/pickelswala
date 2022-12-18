@@ -69,6 +69,7 @@ define( 'NONCE_SALT',       '`Ua&jW|N_iH2h<z+hD#OFBGel]hCbxXA8L-n;}?6:p}}BZa=+!v
  */
 $table_prefix = 'wp_';
 
+
 /**
  * For developers: WordPress debugging mode.
  *
